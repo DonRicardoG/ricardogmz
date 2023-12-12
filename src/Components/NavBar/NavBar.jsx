@@ -16,7 +16,7 @@ const NavBar = () => {
   return (
     <>
       <div className={style.navBarContainer}>
-        <a onClick={() => navigate("/home")}>RG.</a>
+        <a>RG.</a>
         <div
           onClick={handleMenu}
           className={open === true ? style.menuBtnClose : style.menuBtn}
