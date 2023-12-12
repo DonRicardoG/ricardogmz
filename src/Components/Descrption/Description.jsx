@@ -13,11 +13,10 @@ const Description = () => {
       <div className={style.infoDescription}>
         <h1>Full Stack Developer</h1>
         <p>
-          Sed dictum placerat nisl et consequat. Curabitur velit ante, commodo
-          non elementum in, volutpat non ex. Sed sit amet luctus ante. Quisque
-          vestibulum id augue maximus suscipit. Praesent non nibh nec magna
-          convallis tincidunt. Vivamus sit amet commodo justo, sit amet mattis
-          odio.
+          I'm Ricardo, a Full Stack Developer with a focus on Front End
+          development. Throughout my experience, I have honed my skills in React
+          JS, Node JS, Express, and PostgreSQL, showcasing proficiency in agile
+          methodologies, GIT, and various CSS and HTML frameworks.
         </p>
       </div>
     </div>
