@@ -1,0 +1,169 @@
+.latestProjectsContainer {
+  display: flex;
+  width: 75%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.latestProjectsContainer h1 {
+  color: #a8b2d1;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 50rem;
+}
+
+.latestProjectsContainer hr {
+  border: 2px solid #64ffda;
+  width: 225px;
+}
+
+.latestProjectsContainer img {
+  width: 100%;
+}
+
+.projectCards {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  text-decoration: none;
+}
+
+.projectCard h1 {
+  position: relative;
+  top: -640px;
+  color: #dbe1f3;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projectImg {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: transparent;
+}
+
+.projectImg img {
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 250px;
+  transition: 0.2s ease;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.projectCard:hover .overlay {
+  opacity: 0;
+}
+
+.projectCard:hover h1 {
+  opacity: 0;
+}
+
+@media (min-width: 500px) {
+  .latestProjectsContainer {
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .latestProjectsContainer h1 {
+    color: #a8b2d1;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .latestProjectsContainer hr {
+    border: 2px solid #64ffda;
+    width: 225px;
+  }
+
+  .latestProjectsContainer img {
+    width: 100%;
+  }
+
+  .projectCards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    flex-direction: row;
+  }
+
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    text-decoration: none;
+  }
+
+  .projectCard h1 {
+    position: relative;
+    top: -150px;
+    color: #dbe1f3;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .projectImg {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+  }
+
+  .projectImg img {
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 250px;
+    transition: 0.2s ease;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .projectCard:hover .overlay {
+    opacity: 0;
+  }
+
+  .projectCard:hover h1 {
+    opacity: 0;
+  }
+}

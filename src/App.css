@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 0rem;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  background-color: #0a192f;
+  width: 100%;
+
+  &.fijar-body {
+    overflow: hidden;
+  }
+  &.body-scroll {
+    padding-top: 8.6rem;
+  }
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}

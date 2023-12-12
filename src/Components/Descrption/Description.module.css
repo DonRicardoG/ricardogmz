@@ -1,0 +1,123 @@
+.descriptionContainer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.imgDescrption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDescrption img {
+  position: relative;
+  transition: 0.3s all ease;
+  width: 50%;
+}
+
+.imgDescrption img:hover {
+  width: 390px;
+  transform: translate(5%, -5%);
+}
+
+.infoDescription {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+}
+
+.infoDescription h1 {
+  font-size: 32px;
+  color: #64ffda;
+  margin: 0;
+}
+
+.infoDescription p {
+  width: 100%;
+  font-size: 12px;
+  color: white;
+  text-wrap: pretty;
+}
+
+.rectangleImg {
+  position: absolute;
+  height: 370px;
+  width: 370px;
+  border: 4px solid #64ffda;
+  z-index: -1;
+  transition: 0.4s all ease;
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .descriptionContainer {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-direction: row;
+  }
+
+  .imgDescrption {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgDescrption {
+    width: 50%;
+    height: 450px;
+  }
+
+  .imgDescrption img {
+    position: relative;
+    width: 370px;
+    transition: 0.3s all ease;
+  }
+
+  .imgDescrption img:hover {
+    width: 390px;
+    transform: translate(5%, -5%);
+  }
+
+  .infoDescription {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .infoDescription h1 {
+    width: 605px;
+    height: 160px;
+    font-size: 64px;
+    color: #64ffda;
+    margin: 0;
+  }
+
+  .infoDescription p {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+    text-wrap: pretty;
+  }
+
+  .rectangleImg {
+    position: absolute;
+    height: 370px;
+    width: 370px;
+    border: 4px solid #64ffda;
+    z-index: -1;
+    transition: 0.4s all ease;
+  }
+}
