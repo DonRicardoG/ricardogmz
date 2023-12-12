@@ -16,7 +16,16 @@ const NavBar = () => {
   return (
     <>
       <div className={style.navBarContainer}>
-        <a>RG.</a>
+        <Link
+          to="intro"
+          spy={true}
+          smooth={true}
+          activeClass={style.activeLink}
+          offset={50}
+          duration={600}
+        >
+          RG.
+        </Link>
         <div
           onClick={handleMenu}
           className={open === true ? style.menuBtnClose : style.menuBtn}
