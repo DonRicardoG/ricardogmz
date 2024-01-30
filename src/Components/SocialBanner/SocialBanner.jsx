@@ -11,7 +11,7 @@ const SocialBanner = () => {
   return (
     <div className={style.socialBannerContainer}>
       <ul>
-        <li>
+        {/* <li>
           <a href="https://twitter.com/Gmez892" target="_blank">
             <img src={twitter} alt="twitter logo" />
           </a>
@@ -20,7 +20,7 @@ const SocialBanner = () => {
           <a href="https://www.instagram.com/ricardoggmz/" target="_blank">
             <img src={insta} alt="insta logo" />
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="https://github.com/DonRicardoG" target="_blank">
             <img src={gitHub} alt="gitHub logo" />
